@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingLeft="@dimen/spacing_large"
+            android:paddingRight="@dimen/spacing_large">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Confirm  Details:"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/textlabel2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You are about to submit the following client details:"
+            android:textSize="23sp"
+            android:textColor="#000"
+            android:maxLines="2"
+            android:textAlignment="center"
+            android:paddingEnd="@dimen/spacing_large"
+            android:textStyle="bold"
+            android:paddingRight="@dimen/spacing_large" />
+
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="@dimen/spacing_large" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_medium"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Names  :"
+            android:textSize="23sp"
+            android:textColor="#000"
+            android:paddingEnd="@dimen/spacing_large"
+            android:textStyle="bold"
+            android:paddingRight="@dimen/spacing_large" />
+
+        <TextView
+            android:id="@+id/firstname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First name"
+            android:textSize="23sp"
+            android:textColor="#000"
+            android:paddingEnd="@dimen/spacing_large"
+            android:paddingRight="@dimen/spacing_large" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="@dimen/spacing_large" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_medium"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone   :"
+            android:textSize="23sp"
+            android:textColor="#000"
+            android:paddingEnd="@dimen/spacing_large"
+            android:textStyle="bold"
+            android:paddingRight="@dimen/spacing_large" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textSize="23sp"
+            android:textColor="#000"
+            android:paddingEnd="@dimen/spacing_large"
+            android:paddingRight="@dimen/spacing_large" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="@dimen/spacing_large" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_medium"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meter   :"
+            android:textSize="23sp"
+            android:textColor="#000"
+            android:paddingEnd="@dimen/spacing_large"
+            android:textStyle="bold"
+            android:paddingRight="@dimen/spacing_large" />
+
+        <TextView
+            android:id="@+id/meterno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="meter"
+            android:textSize="23sp"
+            android:textColor="#000"
+            android:paddingEnd="@dimen/spacing_large"
+            android:paddingRight="@dimen/spacing_large" />
+    </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/spacing_large" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inst.Date   :"
+                android:textSize="23sp"
+                android:textColor="#000"
+                android:paddingEnd="@dimen/spacing_large"
+                android:textStyle="bold"
+                android:paddingRight="@dimen/spacing_large" />
+
+            <TextView
+                android:id="@+id/ins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="meter"
+                android:textSize="23sp"
+                android:textColor="#000"
+                android:paddingEnd="@dimen/spacing_large"
+                android:paddingRight="@dimen/spacing_large" />
+        </LinearLayout>
+        <View
+        android:layout_width="0dp"
+        android:layout_height="@dimen/spacing_large" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Plot:"
+                android:textSize="23sp"
+                android:textColor="#000"
+                android:paddingEnd="@dimen/spacing_large"
+                android:textStyle="bold"
+                android:paddingRight="@dimen/spacing_large" />
+
+            <TextView
+                android:id="@+id/plott"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="meter"
+                android:textSize="23sp"
+                android:textColor="#000"
+                android:paddingEnd="@dimen/spacing_large"
+                android:paddingRight="@dimen/spacing_large" />
+        </LinearLayout>
+        <View
+        android:layout_width="0dp"
+        android:layout_height="@dimen/spacing_large" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_medium"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remark:"
+                android:textSize="23sp"
+                android:textColor="#000"
+                android:paddingEnd="@dimen/spacing_large"
+                android:textStyle="bold"
+                android:paddingRight="@dimen/spacing_large" />
+
+            <TextView
+                android:id="@+id/rem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="meter"
+                android:textSize="23sp"
+                android:textColor="#000"
+                android:paddingEnd="@dimen/spacing_large"
+                android:paddingRight="@dimen/spacing_large" />
+        </LinearLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="@dimen/spacing_large" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="@dimen/spacing_medium"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_decline"
+            style="@style/Button.Primary.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_rounded_red"
+            android:gravity="center"
+            android:text="Dismiss"
+            android:textColor="@color/mdtp_white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt_accept"
+            style="@style/Button.Primary.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Submit"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/btn_rounded_green"
+            android:textColor="@color/mdtp_white" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
